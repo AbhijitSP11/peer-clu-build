@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "purchases",
+  "info": {
+    "singularName": "purchase",
+    "pluralName": "purchases",
+    "displayName": "Purchase",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "userid": {
+      "type": "integer"
+    },
+    "cid": {
+      "type": "integer"
+    },
+    "cname": {
+      "type": "string"
+    },
+    "cimage": {
+      "type": "string"
+    },
+    "cvideo": {
+      "type": "string"
+    }
+  }
+}
